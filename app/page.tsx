@@ -302,8 +302,8 @@ export default function Home() {
                     <span>Modern UI</span>
                   </div>
                   <div className="project-links mt-4">
-                    <a href="https://auralisai.vercel.app/" target="_blank" rel="noreferrer" className="btn-small">Live Demo</a>
-                    <a href="https://github.com/noob-anand/auralis" target="_blank" rel="noreferrer" className="text-link">GitHub <span>→</span></a>
+                    <a href="https://auralis-ai-pied.vercel.app/" target="_blank" rel="noreferrer" className="btn-small">Live Demo</a>
+                    <a href="https://github.com/noob-anand/Auralis-AI.git" target="_blank" rel="noreferrer" className="text-link">GitHub <span>→</span></a>
                   </div>
                 </div>
               </div>

@@ -722,7 +722,7 @@ section.visible {
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+  gap: 5rem;
 }
 
 .project-card {
@@ -733,6 +733,7 @@ section.visible {
   cursor: pointer;
   background: var(--bg-panel);
   transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+  max-width: 500px;
 }
 
 .project-card:hover {
@@ -889,6 +890,12 @@ section.visible {
   border: 1px solid rgba(59, 130, 246, 0.3);
 }
 
+.project-card-4 .tech-tags span {
+  color: #a855f7;
+  background: rgba(168, 85, 247, 0.1);
+  border: 1px solid rgba(168, 85, 247, 0.3);
+}
+
 .project-links {
   display: flex;
   align-items: center;
@@ -921,6 +928,10 @@ section.visible {
 
 .project-card-3 .text-link:hover {
   color: #3b82f6;
+}
+
+.project-card-4 .text-link:hover {
+  color: #a855f7;
 }
 
 .btn-small {
@@ -959,6 +970,16 @@ section.visible {
 .project-card-3 .btn-small:hover {
   background: #3b82f6;
   border-color: #3b82f6;
+  color: #0d0f12;
+}
+
+.project-card-4 .btn-small {
+  border: 1px solid rgba(168, 85, 247, 0.5);
+}
+
+.project-card-4 .btn-small:hover {
+  background: #a855f7;
+  border-color: #a855f7;
   color: #0d0f12;
 }
 
