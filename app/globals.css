@@ -721,7 +721,7 @@ section.visible {
 /* Projects Section */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
 
@@ -767,6 +767,16 @@ section.visible {
 .project-card-3:hover {
   border-color: rgba(59, 130, 246, 0.6);
   box-shadow: 0 8px 30px rgba(59, 130, 246, 0.2);
+}
+
+.project-card-4 {
+  border: 1px solid rgba(168, 85, 247, 0.2);
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.05);
+}
+
+.project-card-4:hover {
+  border-color: rgba(168, 85, 247, 0.6);
+  box-shadow: 0 8px 30px rgba(168, 85, 247, 0.2);
 }
 
 .project-image-box {
@@ -1116,6 +1126,10 @@ footer {
 
   section {
     padding: 4rem 1.5rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
   }
 
   .contact-panel {

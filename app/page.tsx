@@ -10,6 +10,7 @@ import {
 import finpilotImg from './images/finpilot.png';
 import passfilImg from './images/Passfil.png';
 import donutImg from './images/donut.png';
+import auralisImg from './images/auralis.png';
 
 // Use intersection observer for section reveal
 function useOnScreen(ref: React.RefObject<Element | null>) {
@@ -287,27 +288,27 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Project 2: Passfil */}
-            <div className="glass-panel project-card project-card-2">
+            {/* Project 4: Auralis AI */}
+            <div className="glass-panel project-card project-card-4">
               <div className="project-image-box">
-                <img src={passfilImg.src} alt="Passfil Password Manager" />
+                <img src={auralisImg.src} alt="Auralis AI Chatbot" />
               </div>
               <div className="project-overlay">
                 <div className="project-desc">
-                  <p>A highly secure password manager engineered to safely store, organize, and manage your sensitive credentials. Features robust encryption protocols to keep your passwords protected while offering a seamless user experience for quick creation and retrieval.</p>
+                  <p>An advanced AI chatbot featuring a sleek glassmorphism UI. Provides an ultra-premium user experience with futuristic design, dynamic interactions, and intelligent conversational capabilities.</p>
                   <div className="tech-tags">
-                    <span>React</span>
-                    <span>Security</span>
-                    <span>Encryption</span>
+                    <span>Next.js</span>
+                    <span>AI</span>
+                    <span>Modern UI</span>
                   </div>
                   <div className="project-links mt-4">
-                    <a href="https://passfil.vercel.app/" target="_blank" rel="noreferrer" className="btn-small">Live Demo</a>
-                    <a href="https://github.com/noob-anand/Passfil" target="_blank" rel="noreferrer" className="text-link">GitHub <span>→</span></a>
+                    <a href="https://auralisai.vercel.app/" target="_blank" rel="noreferrer" className="btn-small">Live Demo</a>
+                    <a href="https://github.com/noob-anand/auralis" target="_blank" rel="noreferrer" className="text-link">GitHub <span>→</span></a>
                   </div>
                 </div>
               </div>
               <div className="project-header">
-                <h3>Passfil</h3>
+                <h3>Auralis AI</h3>
               </div>
             </div>
 
@@ -334,6 +335,31 @@ export default function Home() {
                 <h3>Donut</h3>
               </div>
             </div>
+
+            {/* Project 2: Passfil */}
+            <div className="glass-panel project-card project-card-2">
+              <div className="project-image-box">
+                <img src={passfilImg.src} alt="Passfil Password Manager" />
+              </div>
+              <div className="project-overlay">
+                <div className="project-desc">
+                  <p>A highly secure password manager engineered to safely store, organize, and manage your sensitive credentials. Features robust encryption protocols to keep your passwords protected while offering a seamless user experience for quick creation and retrieval.</p>
+                  <div className="tech-tags">
+                    <span>React</span>
+                    <span>Security</span>
+                    <span>Encryption</span>
+                  </div>
+                  <div className="project-links mt-4">
+                    <a href="https://passfil.vercel.app/" target="_blank" rel="noreferrer" className="btn-small">Live Demo</a>
+                    <a href="https://github.com/noob-anand/Passfil" target="_blank" rel="noreferrer" className="text-link">GitHub <span>→</span></a>
+                  </div>
+                </div>
+              </div>
+              <div className="project-header">
+                <h3>Passfil</h3>
+              </div>
+            </div>
+
           </div>
         </Section>
 
